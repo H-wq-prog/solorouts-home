@@ -1,0 +1,48 @@
+.card {
+    width: 25%;
+border-radius: 60px;
+    height: 24vh;
+    padding: 10px;
+}
+
+
+.header p {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.header h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--headerColor);
+    margin: 0;
+}
+
+.header span {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.card .image {
+    width: 30%;
+    height: fit-content;
+}
+
+.card .image img {
+    width: 100%;
+}
+
+.header {
+    width: 60%;
+}
+
+.imyimage {
+    width: 12%;
+}
+
+.imyimage img {
+    width: 100%;
+}

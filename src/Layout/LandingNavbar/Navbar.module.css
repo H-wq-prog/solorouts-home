@@ -1,0 +1,97 @@
+.navbar {
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+.link ul {
+    list-style: none;
+    width: 650px;
+
+}
+
+
+
+.link ul li a {
+    text-decoration: none;
+    color: #2E3566;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 14px;
+    border-radius: 16px;
+}
+
+
+.link ul li a:hover {
+    border: none;
+    transition: .25s ease;
+    color: #4F46E5;
+
+    background:
+        linear-gradient(180deg, #E8DEFF, #DCCBFF);
+
+
+    /* box-shadow:
+        0 4px 20px rgba(164, 128, 255, 0.10),
+        0 12px 40px rgba(164, 128, 255, 0.12)
+    ; */
+    box-shadow: rgb(120 110 200 / 40%) -2px 4px 10px, hsl(259.17deg 100% 74.14% / 43%) 0px -3px 5px inset;
+}
+
+.logo {
+    width: 130px;
+}
+
+
+.profel button {
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+
+.profel button:focus {
+    border: none;
+}
+
+.profel button::after {
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 8px;
+    font-size: 14px;
+    width: 45px;
+    height: 25px;
+    position: absolute;
+    right: -22px;
+    background: white;
+    z-index: -1;
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profel button img {
+    border-radius: 50%;
+    width: 100%;
+    background-color: #DCCBFF;
+    padding: 5px;
+}
+
+.dropdown li a {
+    color: #2E3566;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.dropdown li a:hover {
+    border: none;
+    transition: .7s ease;
+    color: #4F46E5;
+
+    background:
+        linear-gradient(180deg, #E8DEFF, #DCCBFF);
+
+    box-shadow: hsl(259.17deg 100% 74.14% / 43%) 0px -3px 5px inset;
+
+}

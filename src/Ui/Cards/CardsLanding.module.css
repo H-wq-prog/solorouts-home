@@ -1,0 +1,50 @@
+.card {
+    position: relative;
+    width: 25%;
+    border-radius: 60px;
+    height: 35vh;
+}
+
+
+ .card i {
+    width: 70px !important ;
+    height: 70px;
+    font-size: 35px;
+    padding: 5px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    color: white;
+    position: absolute;
+    left: 40px;
+}
+
+.header p {
+    width: 325px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+
+}
+
+.header h3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--headerColor);
+}
+
+.card .image {
+    width: 40%;
+    height: fit-content;
+}
+
+.card .image img {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}

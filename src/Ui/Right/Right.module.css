@@ -1,0 +1,8 @@
+.dashedLine {
+    width: 140px;
+    border: none;
+    border-bottom: 5px dashed #a28bf3;
+    height: 0;
+    position: relative;
+    opacity: 1;
+}

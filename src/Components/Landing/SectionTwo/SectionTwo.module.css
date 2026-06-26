@@ -1,0 +1,75 @@
+.left {
+    width: 40%;
+}
+
+.left h1 {
+    color: var(--headerColor);
+    font-size: 50px;
+    width: 655px;
+    font-weight: 700;
+}
+
+.left p {
+    color: #3c257e;
+    font-size: 18px;
+    width: 70%;
+    font-weight: 600;
+
+}
+
+
+
+.right {
+    width: 80%;
+
+}
+
+.right img {
+    width: 100%;
+
+
+    -webkit-mask-image:
+        linear-gradient(to right, #00000000 0%, #000000 15%, #000000 85%, #00000000 100%),
+        linear-gradient(to bottom, #00000000 0%, #000000 10%, #000000 90%, #00000000 100%);
+
+    mask-image:
+        linear-gradient(to right, #00000000 0%, #000000 15%, #000000 85%, #00000000 100%),
+        linear-gradient(to bottom, #00000000 0%, #000000 10%, #000000 90%, #00000000 100%);
+
+    -webkit-mask-composite: source-in;
+    mask-composite: intersect;
+}
+
+
+.rowtabel .image {
+    width: 10%;
+}
+
+.rowtabel .image img {
+    width: 100%;
+    background-color: #f7f7f757;
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: hsl(218deg 89% 11% / 14%) 0px -3px 5px inset;
+}
+
+.rowtabel {
+    margin-top: 20px;
+}
+
+.rowtabel .title h3,
+.rowtabel .title span {
+    color: #3c257e;
+    background-color: transparent;
+}
+
+.rowtabel .title h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.rowtabel .title span {
+    font-size: 12px;
+    margin: 0;
+}
