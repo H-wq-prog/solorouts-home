@@ -23,6 +23,8 @@ export default function CardsLanding() {
 
                             </div>
                             <p style={{ color: itame.styles.coloDis }}>{itame.pargrafe}</p>
+                                                    <button>hello world</button>
+
                         </div>
 
 
